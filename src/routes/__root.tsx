@@ -79,16 +79,16 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "TruthTrail AI" },
       { name: "description", content: "TruthTrail AI is a multi-agent platform that investigates online claims by gathering evidence, comparing sources, and explaining how each conclusion is reached." },
-      { name: "author", content: "Lovable" },
+      { name: "author", content: "Ayushi Srivastava" },
       { property: "og:title", content: "TruthTrail AI" },
       { property: "og:description", content: "TruthTrail AI is a multi-agent platform that investigates online claims by gathering evidence, comparing sources, and explaining how each conclusion is reached." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:site", content: "@ayushisrivastava34" },
       { name: "twitter:title", content: "TruthTrail AI" },
       { name: "twitter:description", content: "TruthTrail AI is a multi-agent platform that investigates online claims by gathering evidence, comparing sources, and explaining how each conclusion is reached." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/de4d7404-2efc-4024-8f7d-eaeaa5e12297/id-preview-bbb156ec--44306210-1a7a-48c8-ae1b-4f02956b0126.lovable.app-1785406656796.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/de4d7404-2efc-4024-8f7d-eaeaa5e12297/id-preview-bbb156ec--44306210-1a7a-48c8-ae1b-4f02956b0126.lovable.app-1785406656796.png" },
+      { property: "og:image", content: "" },
+      { name: "twitter:image", content: "" },
     ],
     links: [
       {
@@ -128,3 +128,4 @@ function RootComponent() {
     </QueryClientProvider>
   );
 }
+
